@@ -1,0 +1,24 @@
+export LANG="en_US.UTF-8"
+
+unsetopt SHARE_HISTORY
+unsetopt share_history
+setopt no_share_history
+
+#
+# fish like autocomplete
+#
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+#
+# iTerm Shell integration
+#
+source ~/.iterm2_shell_integration.zsh
+
+#
+# Aliases
+#
+alias tm='tmux new-session -A -s main'
+alias finder='open -a finder'
+alias textedit='open -a textedit'
+
+# EOF

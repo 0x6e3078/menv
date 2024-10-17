@@ -1,0 +1,12 @@
+[Interface]
+PrivateKey = cFI83c32EzdYCY2gvrmiQOjbOLOFvmivkonWUqPJAF4=
+Address = 10.10.10.132/24
+DNS = 10.10.10.4,10.10.10.1
+DNS = fritz.box
+
+[Peer]
+PublicKey = wsQ5bw1IomU7RkKXJ8nS9L4XU3fsI6yl7KFchhsY3h0=
+PresharedKey = y8oNycXSOCYf/yjnt327tI6J8b73mDd+2VwiXRn3E+Q=
+AllowedIPs = 10.10.10.0/24,0.0.0.0/0
+Endpoint = 5qzkbluqpln2cf4q.myfritz.net:51618
+PersistentKeepalive = 25
